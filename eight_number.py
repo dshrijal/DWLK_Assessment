@@ -1,8 +1,11 @@
-math = float(input("Enter the obtained marks in mathematics: "))
-physics = float(input("Enter the obtained marks in physics: "))
-chemistry = float(input("Enter the obtained marks in chemistry: "))
-add=math + physics + chemistry
-if math >=60 and physics >= 50 and chemistry >= 40 and add >= 200:
-    print("The student has passed in all subjects and got admission in our institute.")
+math = float(input("Enter the marks in Mathematics: "))
+physics = float(input("Enter the marks in Physics: "))
+chemistry = float(input("Enter the marks in Chemistry: "))
+
+total = math + physics + chemistry
+math_physics = math + physics
+
+if (math >= 60 and physics >= 50 and chemistry >= 40 and total >= 200) or (math_physics >= 150):
+    print("The candidate is eligible for admission.")
 else:
-    print("The student is not eligible for admission.")
+    print("The candidate is not eligible for admission.")

@@ -1,5 +1,5 @@
-for numbers in range (2, 101):
-    for i in range(2,int(numbers**0.5)+1):
+for numbers in range (2, 101): # from 2 to 100
+    for i in range(2,int(numbers**0.5)+1): 
         if numbers % i ==0:
             break
     else:

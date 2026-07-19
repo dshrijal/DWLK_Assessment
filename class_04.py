@@ -1,6 +1,6 @@
 #polymorphism -> getter/setter /data mangling / 
 #vectors -> basic operations!
-
+#class works as a blueprint for creating objects
 """import math
 
 

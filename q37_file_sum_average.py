@@ -1,6 +1,4 @@
-# Q37: Find sum and average of numbers stored in a file (output to a separate file)
 
-# First, create a sample numbers file so this program has something to read.
 with open("numbers.txt", "w") as f:
     f.write("10\n20\n30\n40\n50\n")
 

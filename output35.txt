@@ -1,0 +1,3 @@
+Number of letters: 49
+Number of digits: 0
+Number of other characters: 16

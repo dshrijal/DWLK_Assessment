@@ -1,4 +1,3 @@
-
 with open("numbers.txt", "w") as f:
     f.write("10\n20\n30\n40\n50\n")
 
